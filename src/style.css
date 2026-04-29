@@ -1,0 +1,65 @@
+.country-name-container{
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+    width: 20%;
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 8vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.score-container{
+    
+    background-color: white;
+    z-index: 100;
+  position: fixed;
+  top:40vh;
+  right: 8vw;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+ 
+
+
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+  
+}
+
+
+
+.points{
+    position: fixed;
+    top:30vh;
+    right: 8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px; 
+    width: fit-content;
+    z-index: 110;
+    color: red;
+  
+}
+
+body{
+    margin: 0;
+   
+
+}
+
+
+
+#map { 
+
+    height: 100vh; 
+    z-index: 1;
+}
